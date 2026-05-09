@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac system files
+.DS_Store
+
+# Model weights (too large for git)
+yolov8n.pt
+models/*.h5
+
+# Output videos
+outputs/
+
+# Large dataset and video files
+data/traffic_signs/
+data/_gtsrb_cache/
+data/videos/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
