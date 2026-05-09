@@ -12,7 +12,6 @@ __pycache__/
 
 # Model weights (too large for git)
 yolov8n.pt
-models/*.h5
 
 # Output videos
 outputs/
